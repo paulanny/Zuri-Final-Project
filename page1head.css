@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Averta;
+    src: local('Averta-Regular'), url("Averta-Regular.otf"), url("Averta-Regular.eot");
+  }
+
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body    {
+    background-color: white;
+}
+
+.head-container {
+    background-image:url(./page1image/hero-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.headh2 {
+    color: #514949;
+    font-size: 35px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.headp  {
+    color: #514949;
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+.headimg    {
+    padding: 70px;
+    margin-bottom: 30px;
+}
+
+.head-btns{
+    gap: 30px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headbtn1   {
+    padding: 11px 28px;
+    color: white;
+    background-color: red;
+    border: solid 1px red;
+    font-size: 12px;
+   text-align: center;
+    
+}
+
+.headbtn2   {
+    padding: 11px 28px;
+    border: solid 1px red;
+    color: red;
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+    
+   
+}
+
+.headspans  {
+    color: red;
+}
+
+.headbtn2:hover     {
+    color: white;
+    background-color: red;
+    border: solid 1px red;
+} 
+
+.headbtn1:hover {
+    border: solid 1px red;
+    color: red;
+    background-color: transparent;
+} 

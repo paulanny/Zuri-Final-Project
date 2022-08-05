@@ -1,0 +1,40 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer  {
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+
+
+.contactp   {
+    margin-bottom: 1rem;
+}
+
+.foothead   {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    margin-bottom: 0.5rem;
+}
+
+.linkp  {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+
+.footicons  {
+    width: 18px;
+    margin-right: 5px;
+}
