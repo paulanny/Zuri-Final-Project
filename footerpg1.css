@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-footer  {
+.footerinfo  {
     font-family: 'Poppins',sans-serif;
     display: flex;
     flex-direction: row;
@@ -12,7 +12,7 @@ footer  {
     margin-top: 70px;
     flex-wrap: wrap;
     margin-bottom: 56px;
-    padding: 20px;
+    
 }
 
 
@@ -38,3 +38,28 @@ footer  {
     width: 18px;
     margin-right: 5px;
 }
+
+
+footer hr  {
+
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+    margin: 0px auto 30px auto;
+   
+}
+
+footer      {
+    padding: 30px;
+}
+
+.copyrightp     {
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+    text-align: center;
+}
+
