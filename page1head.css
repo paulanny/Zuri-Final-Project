@@ -93,3 +93,17 @@ body    {
     color: red;
     background-color: transparent;
 } 
+
+.headbtn1:active {
+    border: solid 2px black;
+    border-radius: 3px;
+    color: red;
+    background-color: transparent;
+} 
+
+.headbtn2:active     {
+    color: white;
+    background-color: red;
+    border: solid 2px black;
+    border-radius: 3px;
+} 
