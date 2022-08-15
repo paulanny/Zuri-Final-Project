@@ -64,6 +64,9 @@ body    {
     border: solid 1px red;
     font-size: 12px;
    text-align: center;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+
     
 }
 
@@ -74,8 +77,8 @@ body    {
     background-color: transparent;
     font-size: 12px;
     text-align: center;
-    
-   
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;  
 }
 
 .headspans  {
