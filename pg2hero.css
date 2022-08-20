@@ -174,4 +174,7 @@ body    {
 
 .sechr  {
     padding: 5px 40px;
+    opacity: 0.6;
+    /* border: 0.7px solid #514949; */
+    /* margin: 0px auto 30px auto; */
 }
