@@ -23,6 +23,7 @@
 
 .starimage img    {
     width: 65%;
+    margin-right: 200px;
 }
 
 .starimg    {
@@ -32,6 +33,7 @@
 
 .starimg img    {
     width: 15%;
+    margin-right: 150px;
 }
 
 
@@ -40,5 +42,15 @@ color: #1b1a20!important;
     font-size: 40px!important;
     font-style: normal!important;
     font-weight: 700!important;
+    line-height: 130%!important;
+    width: 70%;
+}
+
+
+.zuritrainp     {
+    color: #e7332b!important;
+    font-size: 24px!important;
+    font-style: normal;
+    font-weight: 400!important;
     line-height: 130%!important;
 }

@@ -1,0 +1,102 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.curveboxes     {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))!important;
+    margin: auto;
+    padding-top: 60px;
+
+}
+
+.box1   {
+    background-color: #e7332b;
+    background: #e7332b;
+    border-radius: 18px!important;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 58px 48px 93px 50px;
+    width: 30%;
+
+
+    transition: -webkit-transform .3s ease!important;
+    transition: transform .3s ease!important;
+    transition: transform .3s ease,-webkit-transform .3s ease!important;
+}
+
+.box2   {
+    background: #fff;
+    border-radius: 18px!important;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    padding: 58px 48px 93px 50px!important;
+    transition: -webkit-transform .3s ease!important;
+    transition: transform .3s ease!important;
+    transition: transform .3s ease,-webkit-transform .3s ease!important;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.curve1     {
+    display: flex!important;
+    float: right!important;
+    margin-right: -49px!important;
+    margin-top: -58px!important;
+    width: 42%!important;
+}
+
+.zerone     {
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+    font-size: 60px!important;
+    line-height: 130%!important;
+}
+
+.zertwo     {
+    color: #1b1a20!important;
+    font-size: 60px!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    line-height: 130%!important;
+}
+
+.fulremote  {
+    color: #fff!important;
+    font-size: 36px!important;
+    font-weight: 500!important;
+    line-height: 130%!important;
+    padding-bottom: 36px!important;
+    padding-top: 32px!important;
+}
+
+.fulremote1     {
+    color: #1b1a20!important;
+    font-size: 36px!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    line-height: 130%!important;
+    padding-bottom: 36px!important;
+    padding-top: 32px!important;
+}
+
+.boxsmallp  {
+    color: #fff!important;
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 130%!important;
+}
+
+.boxsmallp1     {
+    color: #1b1a20!important;
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 130%!important;
+}
