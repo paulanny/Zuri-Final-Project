@@ -11,7 +11,8 @@
     justify-content: space-between;
     background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))!important;
     margin: auto;
-    padding-top: 60px;
+    padding: 60px 50px;
+    
 
 }
 
@@ -22,11 +23,15 @@
     box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
     padding: 58px 48px 93px 50px;
     width: 30%;
-
-
+    margin-bottom: 30px;
     transition: -webkit-transform .3s ease!important;
     transition: transform .3s ease!important;
     transition: transform .3s ease,-webkit-transform .3s ease!important;
+}
+
+.box1:hover {
+    -webkit-transform: translateY(-15px)!important;
+    transform: translateY(-15px)!important;
 }
 
 .box2   {
@@ -39,6 +44,12 @@
     transition: transform .3s ease,-webkit-transform .3s ease!important;
     width: 30%;
     margin-bottom: 30px;
+    
+}
+
+.box2:hover {
+    -webkit-transform: translateY(-15px)!important;
+    transform: translateY(-15px)!important;
 }
 
 .curve1     {
