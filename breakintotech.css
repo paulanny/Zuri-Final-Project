@@ -1,0 +1,92 @@
+.circlestruc1       {
+    display: flex!important;
+    margin-bottom: 27px;
+    width: 10%!important;
+}
+
+.breakred       {
+    margin: 70px auto auto!important;
+    max-width: 1440px!important;
+    padding-top: 49px!important;
+    width: 90%!important;
+}
+
+.techbreakred      {
+    background-color: rgb(231, 51, 43);
+    border-radius: 24px;
+}
+
+.roundspiral        {
+    left: 15%!important;
+    margin-top: 65px!important;
+    position: absolute;
+    width: 12%!important;
+}
+
+.spiralbend     {
+    position: absolute;
+    right: 5%;
+    width: 11%;
+}
+
+.breakfirstpp       {
+    color: #fff;
+    display: flex;
+    font-size: 18px!important;
+    font-weight: 400!important;
+    justify-content: center;
+    padding-top: 70px!important;
+    width: 100%!important;
+    line-height: 130%!important;
+    text-align: center!important;
+}
+
+.breaksecondpp      {
+    color: #fff!important;
+    font-size: 55px!important;
+    font-weight: 700!important;
+    margin: auto!important;
+    padding-bottom: 40px!important;
+    padding-top: 20px!important;
+    width: 50%!important;
+    line-height: 130%!important;
+    text-align: center!important;
+}
+
+.breakbtn       {
+    display: flex;
+    justify-content: center;
+}
+
+.btnofbreak     {
+    background: #fff!important;
+    font-size: 18px;
+    border-radius: 71px!important;
+    color: #e7332b!important;
+    padding: 10px 32px!important;
+    text-transform: none!important;
+    cursor: pointer;
+}
+
+.spibendimgs        {
+    display: flex;
+}
+
+.downspi        {
+    display: flex;
+}
+
+.downbendd      {
+    width: 120%
+}
+
+.downcirc       {
+    display: flex;
+    width: 180%;
+    justify-content: flex-end;
+}
+
+.circleflexend      {
+    left: 0;
+    width: 13%;
+}

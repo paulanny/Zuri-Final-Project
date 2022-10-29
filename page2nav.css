@@ -29,6 +29,13 @@ body    {
     gap: 80px;
     cursor: pointer;
     color: #585757!important;
+    text-decoration: none;
+}
+
+.navmenua   {
+    cursor: pointer;
+    color: #585757!important;
+    text-decoration: none;
 }
 
 .enrol {

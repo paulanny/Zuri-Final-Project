@@ -1,0 +1,121 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.faqs      {
+    margin: auto!important;
+    max-width: 1440px!important;
+    padding-top: 49px!important;
+    width: 80%!important;
+}
+
+.faqtable   {
+    border: 1px solid rgba(71,44,111,.43);
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.tableps    {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    cursor: pointer;
+    
+}
+
+.tab1p  {
+    padding-right: 3em;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.gotque     {
+    text-align: center;
+    color: #e7332b;
+    line-height: 130%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faqbig     {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+.plusicon       {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.tab1smallp       {
+    display: none;
+    transition: 1ms;
+    padding-top: 8px;
+}
+
+.sec7wire   {
+    margin-left: 10%!important;
+    margin-top: 10px!important;
+}
+
+.wirenoseven    {
+    width: 13%;
+}
+
+.stillgotflex   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
+
+.stillgotq      {
+    padding-right: 10px;
+    padding-bottom: 7px;
+    color: #333!important;
+    font-size: 18px!important;
+    font-weight: 400!important;
+    line-height: 130%!important;
+}
+
+
+.tweetque       {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+
+.tweetthem      {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.twiteronred   {
+    background: #e7332b!important;
+    border-radius: 71px!important;
+    box-shadow: none!important;
+    color: #fff!important;
+    padding: 10px 32px!important;
+    text-transform: none!important;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.redtwit    {
+    color: white;
+    padding-right: 7px;
+    /* width: 1em;
+    height: 1em; */
+    display: inline-block;
+}

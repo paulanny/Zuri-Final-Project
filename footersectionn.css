@@ -1,0 +1,80 @@
+.footersectionn     {
+    max-width: 1440px!important;
+    padding-top: 90px!important;
+    width: 89%!important;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.logondsocialsss        {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -16px;
+    width: calc(100% + 16px);
+    margin-left: -16px;
+    justify-content: space-between;
+}
+
+.hostlogo       {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.ingrezurii       {
+    display: block;
+}
+
+.redsoclogos        {
+    display: flex;
+
+}
+
+.redsocccials       {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.copyrightpart      {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.ccrt       {
+    color: #1b1a20!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    letter-spacing: .01em!important;
+    line-height: 140%!important;
+   
+}
+
+.zuriiilogo     {
+    cursor: pointer;
+}
+
+.ccrt11       {
+    color: #1b1a20!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    letter-spacing: .01em!important;
+    line-height: 140%!important;
+    cursor: pointer;
+}
+
+.policydivide       {
+    display: flex;
+}
+
+.ccrt1      {
+    color: #1b1a20!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    letter-spacing: .01em!important;
+    line-height: 140%!important;
+    text-decoration: none;
+    margin-right: 15px;
+    cursor: pointer;
+}

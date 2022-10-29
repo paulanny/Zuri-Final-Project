@@ -1,0 +1,137 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.redbackground   {
+    background-color: red;
+    margin-top: 100px;
+    width:100%
+}
+
+.redbackarrow   {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 128px;
+}
+
+.section5wire   {
+    width: 23%;
+}
+
+.redcontainer   {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin: auto!important;
+    max-width: 1440px!important;
+    padding-top: 49px!important;
+    width: 89%!important;
+}
+
+
+.redfirstp  {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 130%;
+
+}
+
+.redsecp  {
+    font-size: 37px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 150%;
+    /* width: 85%; */
+    
+}
+
+.redthirdp      {
+    color: #fff!important;
+    font-size: 15px!important;
+    font-style: normal!important;
+    font-weight: 300!important;
+    line-height: 170%!important;
+    padding-top: 42px!important;
+    width: 80%!important;
+}
+
+.redbtn     {
+    background: #fff!important;
+    border-radius: 71px!important;
+    color: #e7332b!important;
+    margin-bottom: 40px!important;
+    margin-top: 30px!important;
+    padding: 8px 28px!important;
+    display: inline-flex;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.redbacktexts   {
+    /* padding-left: 24px; */
+    padding-top: 24px;
+    width: 80%;
+}
+
+.redborders     {
+    padding-left: 24px;
+    padding-top: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    width: calc(100% + 24px);
+    margin-left: -24px;
+
+}
+
+.firstredborder     {
+    padding-bottom: 11px!important;
+    padding-right: 48px!important;
+    padding-top: 11px!important;
+   
+    
+}
+
+.temworkimg     {
+    width: 25%;
+    padding-right: 9px;
+}
+
+.firstborderbtn     {
+    border: 2px solid #fff!important;
+    border-radius: 79px!important;
+    box-sizing: border-box!important;
+    color: #fff!important;
+    cursor: no-drop!important;
+     width: 200px!important;
+    -webkit-filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+    filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+    font-size: 14px!important;
+    justify-content: left!important;
+    background-color: transparent;
+    align-items: center;
+    padding: 5px 15px;
+    display: flex;
+}
+
+.dotsection     {
+    display: block;
+}
+
+.section5dot    {
+    width: 15%;
+    padding: 35px;
+}
+
+.imggirlred {
+    display: block;
+}
+
+.redgirl    {
+    width: 100%;
+}
