@@ -51,18 +51,19 @@
     width: 20px;
     height: 20px;
     cursor: pointer;
-    transition: 1ms;
+    transition: transform 0.1s ease-in;
 }
 
 .tab1smallp       {
     display: none;
-    transition: 1ms;
+    transition: transform 0.5s ease-in 2s;
     padding-top: 8px;
 }
 
 .sec7wire   {
     margin-left: 10%!important;
     margin-top: 10px!important;
+
 }
 
 .wirenoseven    {
