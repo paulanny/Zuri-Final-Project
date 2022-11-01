@@ -63,3 +63,34 @@ footer      {
     text-align: center;
 }
 
+
+@media  (max-width:768px)   {
+
+    .footerinfo  {
+        font-family: 'Poppins',sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footlogo           {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .foothead   {
+       
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .links      {
+        text-align: center;
+    }
+
+    .Contacts   {
+        text-align: center;
+    }
+}
+

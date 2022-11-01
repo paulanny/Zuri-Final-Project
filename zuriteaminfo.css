@@ -103,3 +103,96 @@
     /* display: none; */
     overflow: none;
 }
+
+
+
+@media      (max-width:768px){
+    .teamtexts {
+        margin: auto;
+        text-align: center;
+        margin-top: 200px;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .infodotimg2 {
+        display: none;
+    }
+
+    .infodotimg    {
+        display: none;
+    }
+
+    .pinkboxes  {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+
+.boxinfoimg {
+    position: relative;
+    width: 100%;
+}
+
+.boxcontents        {
+    margin-top: 25px;
+}
+}
+
+
+@media  (max-width:950px){
+    .teamtexts {
+        width:55%;
+}
+
+.byzuri     {
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+}
+
+.infodotimg2 {
+    display: none;
+}
+
+.infodotimg    {
+    display: none;
+}
+
+.pinkboxes  {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+}
+
+.boxinfoimg {
+    position: relative;
+    width: 100%;
+}
+
+.boxcontents        {
+    margin-top: 25px;
+}
+}
+
+
+@media  (max-width:1024px){
+
+    .infodotimg2 {
+        display: none;
+    }
+    
+    .infodotimg    {
+        display: none;
+    }
+
+    .teamtexts {
+        width:55%;
+}
+}

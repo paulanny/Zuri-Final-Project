@@ -4,33 +4,65 @@
     box-sizing: border-box;
 }
 
-.faqs      {
+#accordion    {
     margin: auto!important;
     max-width: 1440px!important;
     padding-top: 49px!important;
     width: 80%!important;
 }
-
-.faqtable   {
+   /*  */
+  
+  .accordli     {
+    list-style: none;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
     border: 1px solid rgba(71,44,111,.43);
     padding: 20px;
     border-collapse: collapse;
-}
+  }
 
-.tableps    {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0px;
+  .plusicon       {
+    width: 20px;
+    height: 20px;
     cursor: pointer;
-    
+    transition: transform 0.1s ease-in;
+    transform: rotate(0deg);
 }
 
-.tab1p  {
+
+  .accordlab   {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-right: 3em;
     font-size: 18px;
     font-weight: 600;
     color: #333;
-}
+    cursor: pointer;
+  }
+
+  .accordlab + input[type="radio"]{
+    display: none;
+  }
+
+  #accordion .content       {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+
+
+  #accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+  }
+
+
+
+
 
 .gotque     {
     text-align: center;
@@ -47,18 +79,8 @@
     padding-bottom: 100px;
 }
 
-.plusicon       {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    transition: transform 0.1s ease-in;
-}
 
-.tab1smallp       {
-    display: none;
-    transition: transform 0.5s ease-in 2s;
-    padding-top: 8px;
-}
+
 
 .sec7wire   {
     margin-left: 10%!important;
