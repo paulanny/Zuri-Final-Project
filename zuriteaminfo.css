@@ -197,6 +197,14 @@
 .boxcontents        {
     margin-top: 25px;
 }
+
+.cater      {
+    color: black;
+    font-weight: 500;
+    /* width: 50%; */
+    font-size: 22px;
+    text-align: center;
+}
 }
 
 
