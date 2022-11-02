@@ -58,3 +58,80 @@ body    {
     margin-top: -23px;
 }
 
+
+@media  (max-width:1024px){
+    .page2nav   {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    padding-top:50px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.navmenu    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    cursor: pointer;
+    color: #585757!important;
+    text-decoration: none;
+}
+
+.navass    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    cursor: pointer;
+    color: #585757!important;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.homelogooo     {
+    width: 217px;
+}
+
+.enrolimg      {
+    margin-left: -155px!important;
+}
+}
+
+@media  (max-width:768px){
+   .navass  {
+    display: none;
+   } 
+
+   .homelogooo     {
+    width: 308px;
+}
+
+.enrolimg {
+    background-color: #e7332b!important;
+    border-radius: 100px!important;
+    margin-left: -170px!important;
+    padding: 10px!important;
+    position: absolute!important;
+    width: 80px!important;
+    margin-top: -26px;
+}
+
+.enrol {
+    background: #e7332b!important;
+    border-radius: 71px!important;
+    box-shadow: none!important;
+    color: #fff!important;
+    padding: 11px 39px!important;
+    text-transform: none!important;
+    font-size: 17px;
+}
+}
+

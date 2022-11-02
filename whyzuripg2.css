@@ -54,3 +54,52 @@ color: #1b1a20!important;
     font-weight: 400!important;
     line-height: 130%!important;
 }
+
+@media  (max-width:1024px){
+
+    .zuritrainp {
+        color: #e7332b!important;
+        font-size: 20px!important;
+        font-style: normal;
+        font-weight: 500!important;
+        line-height: 130%!important;
+    }
+
+    .hereatzurip {
+        color: #1b1a20!important;
+        font-size: 28px!important;
+        font-style: normal!important;
+        font-weight: 700!important;
+        line-height: 130%!important;
+        width: 70%;
+    }
+
+    .starimage img {
+        width: 85%;
+        margin-right: 200px;
+    }
+}
+
+@media      (max-width:768px){
+    .whyzuri {
+        display: flex;
+        flex-direction: column;
+    }
+    .starimage img {
+        display: none;
+    }
+
+    .starimg {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hereatzurip {
+        color: #1b1a20!important;
+        font-size: 25px!important;
+        font-style: normal!important;
+        font-weight: 700!important;
+        line-height: 130%!important;
+        width: 100%;
+    }
+}

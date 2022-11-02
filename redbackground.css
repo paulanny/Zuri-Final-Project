@@ -135,3 +135,93 @@
 .redgirl    {
     width: 100%;
 }
+
+
+@media  (max-width:1200px){
+
+    .firstborderbtn {
+        border: 2px solid #fff!important;
+        border-radius: 79px!important;
+        box-sizing: border-box!important;
+        color: #fff!important;
+        cursor: no-drop!important;
+        width: 190px!important;
+        -webkit-filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+        filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+        font-size: 17px!important;
+        justify-content: left!important;
+        background-color: transparent;
+        align-items: center;
+        padding: 9px 9px;
+        display: flex;
+    }
+
+    .firstredborder {
+        padding-bottom: 11px!important;
+        padding-right: 40px!important;
+        padding-top: 11px!important;
+    }
+
+    .temworkimg {
+        width: 30%;
+        padding-right: 9px
+}
+
+}
+
+@media  (max-width:1024px){
+    .redcontainer {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        margin: auto!important;
+        max-width: 1440px!important;
+        padding-top: 49px!important;
+        width: 89%!important;
+    }
+
+    .redbacktexts {
+        /* padding-left: 24px; */
+        padding-top: 24px;
+        width: 100%;
+    }
+
+    .redthirdp {
+        color: #fff!important;
+        font-size: 17px!important;
+        font-style: normal!important;
+        font-weight: 400!important;
+        line-height: 170%!important;
+        padding-top: 42px!important;
+        width: 100%!important;
+    }
+
+    .firstborderbtn {
+        border: 2px solid #fff!important;
+        border-radius: 79px!important;
+        box-sizing: border-box!important;
+        color: #fff!important;
+        cursor: no-drop!important;
+        width: 180px!important;
+        -webkit-filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+        filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+        font-size: 17px!important;
+        justify-content: left!important;
+        background-color: transparent;
+        align-items: center;
+        padding: 17px 7px;
+        display: flex;
+    }
+
+    .firstredborder {
+        padding-bottom: 11px!important;
+        padding-right: 40px!important;
+        padding-top: 11px!important;
+    }
+
+    .temworkimg {
+        width: 30%;
+        padding-right: 9px
+}
+}

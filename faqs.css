@@ -142,3 +142,21 @@
     height: 1em; */
     display: inline-block;
 }
+
+@media  (max-width:1100px){
+
+.faqbig {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+
+.gotque {
+  text-align: center;
+  color: #e7332b;
+  line-height: 130%;
+  font-size: 20px;
+  font-weight: 400;
+}
+}

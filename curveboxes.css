@@ -111,3 +111,39 @@
     font-weight: 400!important;
     line-height: 130%!important;
 }
+
+@media  (max-width:1100px){
+
+    .box1   {
+        width: 45%;
+    }
+
+    .box2   {
+        width: 45%;
+    }
+}
+
+
+@media      (max-width:768px){
+
+    .box1   {
+        width: 100%;
+    }
+
+    .box2   {
+        width: 100%;
+    }
+
+    .box1   {
+        width: 100%;
+    }
+
+    .curveboxes     {
+
+        margin-top: -50px;
+    }
+
+    .fulremote, .fulremote1  {
+        font-weight: 600!important;
+    }
+}

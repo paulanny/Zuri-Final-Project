@@ -122,7 +122,7 @@
 
 .scopeboxsmalltxts      {
     font-size: 14px!important;
-    font-weight: 300!important;
+    font-weight: 400!important;
     letter-spacing: .01em!important;
     line-height: 140%!important;
     padding-bottom: 30px!important;
@@ -148,4 +148,24 @@
     margin-top: 70px;
     cursor: pointer;
     
+}
+
+@media  (max-width:1100px){
+    .liststexts {
+        color: #1b1a20!important;
+        font-size: 30px!important;
+        font-weight: 700!important;
+        line-height: 130%!important;
+        width: 100%;
+    }
+
+    .scopeimg {
+        width: 13%;
+    }
+
+    .scopebox1 {
+        padding-left: 24px;
+        padding-top: 24px;
+        width: 50%;
+    }
 }
