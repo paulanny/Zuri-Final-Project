@@ -78,3 +78,102 @@
     margin-right: 15px;
     cursor: pointer;
 }
+
+.imnewhr, .copyrightnew    {
+    display: none;
+}
+
+.ccrtnew    {
+    display: none;
+}
+
+
+
+@media  (max-width:600px){
+
+    .logondsocialsss        {
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column wrap;
+        margin-top: -16px;
+        width: calc(100% + 16px);
+        margin-left: -16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lastlogoopg2   {
+        width: 100%;
+    }
+
+    .zuriiilogo {
+        cursor: pointer;
+        justify-content: center!important;
+        margin: auto!important;
+        align-content: center;
+        display: flex;
+    }
+
+    .ccrtnew    {
+        display: block;
+    }
+
+    .policydivide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .ccrt, .policydivide {
+        display: none;
+}
+
+    .ccrtnew      {
+        color: #1b1a20!important;
+        font-size: 16px!important;
+        font-style: normal!important;
+        font-weight: 400!important;
+        letter-spacing: .01em!important;
+        line-height: 140%!important;
+        text-align: center!important;
+        
+
+    }
+
+    
+
+    .ccrtpnew       {
+        padding-top: 25px;
+    }
+
+    .imnewhr, .copyrightnew    {
+        display: block;
+    }
+
+    .imnewhr        {
+        margin-top: 35px;
+    flex-shrink: 0;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.copyrightnew       {
+    padding-top: 20px;
+}
+
+.copyrightpnew      {
+    color: #1b1a20!important;
+    font-size: 16px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    letter-spacing: .01em!important;
+    line-height: 140%!important;
+    text-align: center!important;
+}
+
+
+}
+    

@@ -173,8 +173,17 @@
     }
 }
 
+@media      (max-width:950px){
+    .blackboxes {
+        display: flex;
+        padding-left: 0px;
+        padding-right: 29px;
+        width: 50%;
+    }
+}
 
-@media  (max-width:768px){
+
+@media  (max-width:900px){
 
     .faqbig1 {
         text-align: center;
@@ -225,6 +234,112 @@
         width: 30%;
     }
 
+    .circlestruc {
+        display: flex!important;
+        float: right!important;
+        margin-right: 1px!important;
+        margin-top: -72px!important;
+        width: 16%!important;
+    }
+
+    .circlestruc {
+    display: flex!important;
+    float: right!important;
+    margin-right: -23px!important;
+    margin-top: -72px!important;
+    width: 40%!important;
+}
     
 
+}
+
+
+@media      (max-width:600px){
+
+    .hoursvgimg     {
+        display: flex;
+        float: right;
+        margin-right: -19px!important;
+        margin-top: -98px;
+        width: 29%;
+
+    }
+
+    .timesvgimg {
+        display: flex;
+        float: right;
+        margin-right: -19px!important;
+        margin-top: -98px;
+        width: 47%;
+}
+    }
+    
+
+
+
+@media      (max-width:500px){
+
+    .blackboxes {
+        display: flex;
+        padding-left: 13px;
+        padding-right: 34px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    .availcoursebig {
+        font-size: 30px!important;
+        font-weight: 700!important;
+    }
+}
+
+@media  (max-width:450px){
+    .faqbig1 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+
+    .structuresmallp {
+        text-align: center;
+        padding-bottom: 40px;
+        color: #333!important;
+        font-size: 12px!important;
+        font-weight: 400!important;
+        line-height: 130%!important;
+    }
+
+    .gotque {
+        text-align: center;
+        color: #e7332b;
+        line-height: 130%;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .wirenoseven {
+        width: 23%;
+        margin-bottom: 15px;
+    }
+
+    .structureboxesd {
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column wrap;
+        /* margin-top: -40px; */
+        width: calc(100% + 70px);
+        margin-left: -36px;
+    }
+
+    .secavailcourses {
+        color: #fff!important;
+        font-size: 15px!important;
+        font-weight: 900!important;
+        letter-spacing: .01em!important;
+        line-height: 140%!important;
+        width: 100%;
+        padding-top: 15px;
+    }
 }

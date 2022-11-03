@@ -185,4 +185,34 @@
     padding-top: 24px;
     width: 100%;
 }
+
+
+}
+
+
+@media  (max-width:700px){
+
+    .scopeimg {
+        width: 43%;
+        margin-top: -13px!important;
+    }
+}
+
+
+@media  (max-width:550px){
+
+    .redscope {
+        color: #e7332b!important;
+        font-size: 18px!important;
+        font-weight: 400!important;
+        line-height: 130%!important;
+    }
+
+    .liststexts {
+        color: #1b1a20!important;
+        font-size: 20px!important;
+        font-weight: 700!important;
+        line-height: 130%!important;
+        width: 85%;
+    }
 }

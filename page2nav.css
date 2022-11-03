@@ -32,6 +32,17 @@ body    {
     text-decoration: none;
 }
 
+.navass    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    cursor: pointer;
+    color: #585757!important;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 .navmenua   {
     cursor: pointer;
     color: #585757!important;
@@ -223,7 +234,27 @@ body    {
 @media  (max-width:280px){
 
     .homelogooo     {
-        width: 140px;
+        width: 100px;
+    }
+
+    .enrolimg {
+        background-color: #e7332b!important;
+        border-radius: 100px!important;
+        margin-left: -92px!important;
+        padding: 10px!important;
+        position: absolute!important;
+        width: 37px!important;
+        margin-top: -8px;
+    }
+
+    .enrol {
+        background: #e7332b!important;
+        border-radius: 71px!important;
+        box-shadow: none!important;
+        color: #fff!important;
+        padding: 7px 11px!important;
+        text-transform: none!important;
+        font-size: 10px;
     }
 }
 
