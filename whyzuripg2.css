@@ -124,4 +124,9 @@ trainp {
     line-height: 130%!important;
 }
 
+.starimg img {
+    width: 15%;
+    margin-right: 65px;
+}
+
 }
