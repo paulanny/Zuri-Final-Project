@@ -105,7 +105,7 @@ body    {
 }
 }
 
-@media  (max-width:768px){
+@media  (max-width:980px){
    .navass  {
     display: none;
    } 
@@ -133,5 +133,97 @@ body    {
     text-transform: none!important;
     font-size: 17px;
 }
+}
+
+@media  (max-width:680px){
+
+    .homelogooo     {
+        width: 240px;
+    }
+
+    .enrol {
+        background: #e7332b!important;
+        border-radius: 71px!important;
+        box-shadow: none!important;
+        color: #fff!important;
+        padding: 11px 39px!important;
+        text-transform: none!important;
+        font-size: 14px;
+    }
+
+    .enrolimg {
+        background-color: #e7332b!important;
+        border-radius: 100px!important;
+        margin-left: -140px!important;
+        padding: 10px!important;
+        position: absolute!important;
+        width: 65px!important;
+        margin-top: -19px;
+    }
+}
+
+@media  (max-width:550px){
+
+    .homelogooo     {
+        width: 200px;
+    }
+}
+
+@media  (max-width:450px){
+
+    .homelogooo     {
+        width: 140px;
+    }
+
+    .enrol {
+        background: #e7332b!important;
+        border-radius: 71px!important;
+        box-shadow: none!important;
+        color: #fff!important;
+        padding: 11px 39px!important;
+        text-transform: none!important;
+        font-size: 12px;
+    }
+
+    .enrolimg {
+        background-color: #e7332b!important;
+        border-radius: 100px!important;
+        margin-left: -122px!important;
+        padding: 10px!important;
+        position: absolute!important;
+        width: 58px!important;
+        margin-top: -14px;
+    }
+}
+
+@media  (max-width:380px){
+
+    .enrol {
+        background: #e7332b!important;
+        border-radius: 71px!important;
+        box-shadow: none!important;
+        color: #fff!important;
+        padding: 7px 19px!important;
+        text-transform: none!important;
+        font-size: 12px;
+    }
+
+    .enrolimg {
+        background-color: #e7332b!important;
+        border-radius: 100px!important;
+        margin-left: -112px!important;
+        padding: 10px!important;
+        position: absolute!important;
+        width: 51px!important;
+        margin-top: -13px;
+    }
+
+}
+
+@media  (max-width:280px){
+
+    .homelogooo     {
+        width: 140px;
+    }
 }
 
