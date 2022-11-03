@@ -103,3 +103,25 @@ color: #1b1a20!important;
         width: 100%;
     }
 }
+
+
+@media      (max-width:450px){
+
+.hereatzurip {
+    color: #1b1a20!important;
+    font-size: 20px!important;
+    font-style: normal!important;
+    font-weight: 700!important;
+    line-height: 130%!important;
+    width: 100%;
+}
+
+trainp {
+    color: #e7332b!important;
+    font-size: 17px!important;
+    font-style: normal;
+    font-weight: 500!important;
+    line-height: 130%!important;
+}
+
+}
