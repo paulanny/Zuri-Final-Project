@@ -75,7 +75,7 @@ body    {
     padding: 11px 28px;
     border: solid 1px red;
     color: red;
-    background-color: transparent;
+    background-color: white;
     font-size: 12px;
     text-align: center;
     text-decoration: none;
@@ -86,16 +86,25 @@ body    {
     color: red;
 }
 
-.headbtn2:hover     {
+.btnlkii, .btnlkiii    {
+    text-decoration: none;
+    color: white;
+}
+
+ .headbtn2:hover     {
     color: white;
     background-color: red;
     border: solid 1px red;
+    
 } 
+
+
 
 .headbtn1:hover {
     border: solid 1px red;
     color: red;
     background-color: transparent;
+    
 } 
 
 .headbtn1:active {
@@ -112,10 +121,7 @@ body    {
     border-radius: 3px;
 } 
 
-.btnlkii    {
-    text-decoration: none;
-    color: white;
-}
+
 
 
 

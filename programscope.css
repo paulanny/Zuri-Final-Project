@@ -169,3 +169,20 @@
         width: 50%;
     }
 }
+
+
+@media  (max-width:768px){
+.liststexts {
+    color: #1b1a20!important;
+    font-size: 23px!important;
+    font-weight: 700!important;
+    line-height: 130%!important;
+    width: 65%;
+}
+
+.scopebox1 {
+    padding-left: 24px;
+    padding-top: 24px;
+    width: 100%;
+}
+}

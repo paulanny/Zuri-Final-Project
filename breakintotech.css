@@ -117,3 +117,28 @@
         text-align: center!important;
     }
 }
+
+@media  (max-width:768px){
+
+    .circlestruc1 {
+        display: none!important;
+        
+    }
+
+    .breaksecondpp {
+        color: #fff!important;
+        font-size: 35px!important;
+        font-weight: 700!important;
+        margin: auto!important;
+        padding-bottom: 40px!important;
+        padding-top: 20px!important;
+        width: 70%!important;
+        line-height: 130%!important;
+        text-align: center!important;
+    }
+
+    .circleflexend {
+        left: 0;
+        width: 21%;
+    }
+}

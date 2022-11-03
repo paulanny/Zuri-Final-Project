@@ -172,3 +172,59 @@
         margin-left: -40px;
     }
 }
+
+
+@media  (max-width:768px){
+
+    .faqbig1 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .structuresmallp {
+        text-align: center;
+        padding-bottom: 40px;
+        color: #333!important;
+        font-size: 16px!important;
+        font-weight: 400!important;
+        line-height: 130%!important;
+    }
+
+    .structureboxesd {
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: column wrap;
+        /* margin-top: -40px; */
+        width: calc(100% + 80px);
+        margin-left: -40px;
+    }
+
+    .blackboxes {
+        display: flex;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    .hoursvgimg {
+        display: flex;
+        float: right;
+        margin-right: -23px!important;
+        margin-top: -114px;
+        width: 16%;
+    }
+
+    .timesvgimg {
+        display: flex;
+        float: right;
+        margin-right: -19px!important;
+        margin-top: 12px;
+        width: 30%;
+    }
+
+    
+
+}

@@ -225,3 +225,31 @@
         padding-right: 9px
 }
 }
+
+
+@media  (max-width:768px){
+
+
+    .firstborderbtn {
+        border: 2px solid #fff!important;
+        border-radius: 79px!important;
+        box-sizing: border-box!important;
+        color: #fff!important;
+        cursor: no-drop!important;
+        width: 220px!important;
+        -webkit-filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+        filter: drop-shadow(0 11px 22px rgba(231,51,43,.1))!important;
+        font-size: 17px!important;
+        justify-content: left!important;
+        background-color: transparent;
+        align-items: center;
+        padding: 8px 14px;
+        display: flex;
+    }
+
+.firstredborder {
+    padding-bottom: 11px!important;
+    padding-right: 100px!important;
+    padding-top: 11px!important;
+}
+}

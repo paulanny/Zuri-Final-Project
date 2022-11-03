@@ -160,3 +160,54 @@
   font-weight: 400;
 }
 }
+
+@media  (max-width:768px){
+
+  .wirenoseven    {
+    width: 23%;
+}
+
+.faqbig {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.gotque {
+  text-align: center;
+  color: #e7332b;
+  line-height: 130%;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.accordlab   {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0em!important;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+
+.content    {
+  font-size: 10px;
+}
+
+.plusicon {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+#accordion    {
+  margin: auto!important;
+  max-width: 1440px!important;
+  padding-top: 49px!important;
+  width: 90%!important;
+}
+}
