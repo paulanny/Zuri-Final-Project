@@ -1,0 +1,211 @@
+
+
+.thdheadimgs  {
+    
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 50%;
+    
+
+}
+
+.guyheadimg     {
+    display: flex!important;
+    justify-content: flex-end!important;
+    
+
+}
+
+.guyimg     {
+    width: 100%;
+}
+
+.twocurvebtns   {
+    margin-top: 30px;
+}
+
+
+.samerdbtn      {
+    padding: 11px 50px;
+    background-color: #e7332b;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-right: 15px!important;
+
+}
+
+.ashrdbtn       {
+    background-color: #585858!important;
+    border-radius: 0 0 8px 0!important;
+    color: #fff!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+    line-height: 19px!important;
+    padding: 11px 50px!important;
+    text-transform: none!important;
+
+}
+
+.ashrdbtn:hover  {
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, 
+    rgb(0 0 0 / 14%) 0px 4px 5px 0px, 
+    rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+}
+
+.samerdbtn:hover  {
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, 
+    rgb(0 0 0 / 14%) 0px 4px 5px 0px, 
+    rgb(0 0 0 / 12%) 0px 1px 10px 0px;
+}
+
+.redtal     {
+    color: rgb(231, 51, 43);
+}
+
+.smilebigttexts      {
+    color: #161617!important;
+    font-size: 35px!important;
+    font-style: normal!important;
+    font-weight: 800!important;
+    line-height: 49px!important;
+
+}
+
+.thickkk        {
+    width: 100px;
+}
+
+.lineye       {
+    margin-left: 432px;
+    margin-top: -24px;
+}
+
+.smilysmalltxts     {
+    color: #787878!important;
+    font-size: 19px!important;
+    font-weight: 400!important;
+    line-height: 22px!important;
+    width: 70%!important;
+    padding-top: 15px;
+
+}
+
+.thdheadline        {
+    margin-top: -172px;
+    mix-blend-mode: soft-light!important;
+    position: absolute!important;
+    right: 0;
+
+}
+
+.theheadlinee   {
+    width: 138px;
+}
+
+
+
+.smilyguytexts      {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    
+}
+
+.smilndtexts    {
+    margin: auto!important;
+    max-width: 1440px!important;
+    width: 85%!important;
+    padding-top: 220px;
+
+}
+
+
+@media   (max-width:1200px)   {
+
+    .smilyguytexts      {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        
+    }
+
+    .theheadlinee   {
+        width: 290px;
+    }
+    .smilysmalltxts{
+
+    color: #787878!important;
+    font-size: 19px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 22px!important;
+    margin: auto!important;
+    text-align: center;
+    width: 70%!important;
+    padding-top: 15px;
+
+}
+
+.smilebigttexts      {
+    color: #161617!important;
+    font-size: 35px!important;
+    font-style: normal!important;
+    font-weight: 800!important;
+    line-height: 49px!important;
+    text-align: center;
+
+}
+
+.guyheadimg     {
+    display: flex!important;
+    justify-content: center!important;
+    margin-top: 50px;
+
+}
+
+.thdheadimgs  {
+    
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 72%;
+
+}
+
+.lineye     {
+    margin-left: 57vw!important;
+    margin-top: -24px!important;
+}
+
+
+.thdheadline    {
+    margin-top: -262px;
+    mix-blend-mode: soft-light!important;
+    position: absolute!important;
+    right: 0;
+}
+
+.twocurvebtns   {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+@media      (max-width:900px){
+
+    .thdheadline    {
+        display:none;
+    }
+}

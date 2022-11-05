@@ -21,27 +21,39 @@
     //   }
     // };
 
-    const navMenu = document.querySelector(".tableps");
+    const navMenu = document.querySelector(".accordlab");
     const plusicon = document.querySelector(".plusicon");
-    const tab1smallp = document.querySelector(".tab1smallp");
+    const content = document.querySelector(".content");
 
-    document.querySelectorAll(".tableps").forEach(n => n.
+    document.querySelectorAll(".accordlab").forEach(n => n.
         addEventListener("click", () => {
-            if (tab1smallp.style.display !== "none") {
-                tab1smallp.style.display = "none";
+            if (content.style.display !== "none") {
+                content.style.display = "none";
                 plusicon.style.transform = `rotate(0deg)`;
               } else {
-                tab1smallp.style.display = "block";
+                content.style.display = "block";
+                content.style.transition = 'max-height 0.5s ease'
                 plusicon.style.transform = `rotate(90deg)`;
     
     }}))
 
     document.querySelectorAll(".plusicon").forEach(n => n.
-        addEventListener("click", () => {
-            if (plusicon !== "") {
-                plusicon.style.transform = `rotate(0deg)`;
-              } else {
+      addEventListener("click", () => {
+          if (plusicon.style.cursor !== "pointer") {
+              plusicon.style.transform = `rotate(0deg)`;
+            } else {
+          
+              plusicon.style.transform = `rotate(90deg)`;
+  
+  }}))
+
+
+    // document.querySelectorAll(".plusicon").forEach(n => n.
+    //     addEventListener("click", () => {
+    //         if (plusicon !== "") {
+    //             plusicon.style.transform = `rotate(0deg)`;
+    //           } else {
             
-                plusicon.style.transform = `rotate(90deg)`;
+    //             plusicon.style.transform = `rotate(90deg)`;
     
-    }}))
+    // }}))

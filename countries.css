@@ -1,0 +1,181 @@
+.countriessec   {
+    background-image: url(./page3image/bgsection2.063bd869082548bafa74.png)!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    padding-bottom: 142px!important;
+    padding-top: 90px!important;
+    margin-top: 100px;
+}
+
+
+.redthou     {
+    color: rgb(231, 51, 43);
+}
+
+.countrybgtexts      {
+    color: #161617!important;
+    font-size: 35px!important;
+    font-style: normal!important;
+    font-weight: 800!important;
+    line-height: 49px!important;
+
+}
+
+.roundimgcon     {
+    display: flex!important;
+    justify-content: flex-end!important;
+    
+
+}
+
+.secroundimgg  {
+    
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+
+
+}
+
+.countriestxtsimg       {
+    margin: auto!important;
+    max-width: 1440px!important;
+    width: 85%!important;
+}
+
+.countryimgtxts     {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countrytexts {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+
+}
+
+.sectworoundd       {
+    width: 70%;
+}
+
+.countriesstan      {
+    display: flex;
+    padding-top: 20px;
+}
+
+.countryi       {
+    background-color: #fff!important;
+    border-radius: 8px!important;
+    display: flex;
+    margin-right: 16px;
+    padding: 7px!important;
+    width: 55px;
+}
+
+.germanyyy, .englanddd, .indiaa, .Nigeria, .usa     {
+    width: 75%;
+    margin: auto;
+}
+
+.smallcountrytextsi     {
+    padding-top: 10px;
+    font-weight: 700;
+    color: #161617!important;
+    font-size: 18px;
+}
+
+.smallcountrytextsii     {
+    padding-top: 10px;
+    font-weight: 300;
+    color: #787878!important;
+    font-size: 18px;
+}
+
+@media  (max-width:900px){
+
+    .countrybgtexts     {
+        color: #161617!important;
+    font-size: 30px!important;
+    font-weight: 800!important;
+    line-height: 49px!important;
+    margin: auto!important;
+    text-align: center;
+    width: 80%;
+}
+
+.roundimgcon     {
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    padding-top: 70px;
+    
+
+}
+
+
+.secroundimgg  {
+    
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 85%;
+
+
+}
+
+
+}
+
+.countriesstan      {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.countrytexts {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+
+}
+
+.smallcountrytextsi     {
+    padding-top: 10px;
+    font-weight: 700;
+    color: #161617!important;
+    font-size: 18px;
+    text-align: center;
+}
+
+.smallcountrytextsii     {
+    padding-top: 10px;
+    font-weight: 300;
+    color: #787878!important;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.countryimgtxts     {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+
+
+
+@media   (max-width:768px)   {
+
+    
+
+}
