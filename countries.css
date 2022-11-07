@@ -128,7 +128,7 @@
 }
 
 
-}
+
 
 .countriesstan      {
     display: flex;
@@ -171,11 +171,59 @@
 }
 
     
+}
 
 
+@media   (max-width:600px)   {
 
-@media   (max-width:768px)   {
+    .countrybgtexts     {
+        color: #161617!important;
+    font-size: 25px!important;
+    font-weight: 800!important;
+    line-height: 49px!important;
+    margin: auto!important;
+    text-align: left;
+    width: 100%;
+}
 
+.smallcountrytextsi     {
+    padding-top: 10px;
+    font-weight: 700;
+    color: #161617!important;
+    font-size: 20px;
+    text-align: left;
+}
+
+.smallcountrytextsii     {
+    padding-top: 10px;
+    font-weight: 300;
+    color: #787878!important;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.countryi {
+    background-color: #fff!important;
+    border-radius: 8px!important;
+    display: flex;
+    margin-right: 16px;
+    padding: 7px!important;
+    width: 70px;
+}
+
+.secroundimgg  {
     
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 95%;
+
+
+}
+
+.sectworoundd       {
+    width: 100%;
+}
 
 }

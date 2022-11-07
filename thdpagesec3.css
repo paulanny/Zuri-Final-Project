@@ -37,11 +37,26 @@
 .firsttalentppp     {
     padding-top: 24px;
     padding-left: 24px;
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+    
 }
 
 .firsttalentpppi     {
     padding-top: 16px;
     padding-left: 16px;
+    box-sizing: border-box;
+    margin: 0px;
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+    
 }
 
 
@@ -50,38 +65,84 @@
     border-radius: 8px!important;
     box-shadow: 0 8px 30px hsla(0,0%,48%,.16)!important;
     color: #787878!important;
-    font-size: 20px!important;
+    font-size: 17px!important;
     font-weight: 400!important;
     line-height: 33px!important;
     padding: 11px!important;
     text-align: center;
+    justify-content: center;
     /* transition: -webkit-transform .3s ease!important;
     transition: transform .3s ease!important; */
     transition: transform .3s ease,-webkit-transform .3s ease!important;
 }
 
-.talentsseconly     {
-    display: flex;
-}
 
 
-.sectionsoftalentss     {
+.talentsectionss    {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     margin-top: -24px;
     width: calc(100% + 24px);
     margin-left: -24px;
 }
 
-.sectionsoftalentssii     {
+.sectionsoftalentss     {
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    width: calc(100% + 24px);
+    margin-left: -24px;
+}
+
+.talsecc    {
+    
+        flex-basis: 100%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 100%;
+        padding-top: 24px;
+        
+    
+}
+
+.talsecci    {
+    
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    padding-top: 24px;
+    
+
+}
+
+.talentsectionssi   {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
     margin-top: -16px;
     width: calc(100% + 16px);
     margin-left: -16px;
-    padding-bottom: 100px;
+    
+}
+
+.sectionsoftalentssi     {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -16px;
+    width: calc(100% + 16px);
+    margin-left: -16px;
+    
+}
+
+.emptydiv       {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
 }
 
 
@@ -89,7 +150,7 @@
 
 
 .talentssecline     {
-    margin-top: -77px;
+    margin-top: -96px;
     mix-blend-mode: soft-light!important;
     position: absolute!important;
     right: 0;
@@ -104,11 +165,257 @@
     transform: translateY(-15px)!important;
 }
 
+
+@media  (max-width:1380){
+    .talentslistpp{
+        align-items: center;
+        background: #fff!important;
+        border-radius: 8px!important;
+        box-shadow: 0 8px 30px hsla(0,0%,48%,.16)!important;
+        color: #787878!important;
+        display: flex;
+        font-size: 14px!important;
+        font-weight: 400!important;
+        height: 100%!important;
+        justify-content: center;
+        line-height: 33px!important;
+        padding: 5px!important;
+        text-align: center;
+        justify-content: center;
+        
+    }
+}
+
+
+
 @media   (max-width:1200px)   {
 
     .talentssecline     {
         display: none;
     }
 }
+
+
+
+
+@media      (max-width:900px){
+
+    .skillbgtextsi      {
+        color: #161617!important;
+        font-size: 30px!important;
+        font-style: normal!important;
+        font-weight: 800!important;
+        line-height: 49px!important;
+        /* width: 40%; */
+        padding-bottom: 35px;
+        padding-top: 55px;
+        text-align: center;
+    
+    }
+
+    .skillbgtexts      {
+        color: #161617!important;
+        font-size: 30px!important;
+        font-style: normal!important;
+        font-weight: 800!important;
+        line-height: 49px!important;
+        width: 90%;
+        padding-bottom: 35px;
+        text-align: center;
+    
+    }
+
+}
+
+
+    @media      (max-width:500px){
+
+        .skillbgtextsi      {
+            color: #161617!important;
+            font-size: 25px!important;
+            font-style: normal!important;
+            font-weight: 700!important;
+            line-height: 49px!important;
+            /* width: 40%; */
+            padding-bottom: 25px;
+            padding-top: 55px;
+            text-align: center;
+        
+        }
+    
+        .skillbgtexts      {
+            color: #161617!important;
+            font-size: 25px!important;
+            font-style: normal!important;
+            font-weight: 700!important;
+            line-height: 49px!important;
+            width: 90%;
+            padding-bottom: 25px;
+            text-align: center;
+        
+        }
+
+
+        .talentslistpp{
+            align-items: center;
+            background: #fff!important;
+            border-radius: 8px!important;
+            box-shadow: 0 8px 30px hsla(0,0%,48%,.16)!important;
+            color: #787878!important;
+            display: flex;
+            font-size: 12px!important;
+            font-weight: 400!important;
+            height: 100%!important;
+            justify-content: center;
+            line-height: 33px!important;
+            padding: 5px!important;
+            text-align: center;
+            justify-content: center;
+            
+        }
+
+    
+    
+
+    
+}
+
+
+@media  (min-width:600px){
+
+    .talsecc    {
+        
+        flex-basis: 100%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 100%;
+
+        
+    
+    }
+
+    .talsecci    {
+        
+        flex-basis: 100%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 100%;
+
+    }
+
+    .firsttalentppp     {
+        flex-basis: 33.3333%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 33.3333%;
+        padding-top: 24px;
+        padding-left: 24px;
+        flex-direction: row;
+    }
+
+    .firsttalentpppi     {
+        padding-top: 16px;
+        padding-left: 16px;
+        flex-basis: 33.3333%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 33.3333%;
+        flex-direction: row;
+    }
+    }
+
+@media      (min-width:900px){
+    
+.talsecc    {
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+.talsecci    {
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+
+.firsttalentppp     {
+    padding-top: 24px;
+    padding-left: 24px;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 25%;
+}
+
+.firsttalentpppi     {
+    padding-top: 16px;
+    padding-left: 16px;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 25%;
+}
+
+.firsttalentpppi     {
+    flex-basis: 11.6667%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 11.6667%;
+}
+
+.firsttalentpppi     {
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 25%;
+}
+}
+
+@media  (min-width:1200px){
+
+.talsecc    {
+    
+    flex-basis: 83.3333%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 83.3333%;
+    
+
+}
+
+.talsecci       {
+    flex-basis: 83.3333%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 83.3333%;
+}
+
+
+
+.firsttalentppp     {
+    padding-top: 24px;
+    padding-left: 24px;
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 25%;
+}
+
+.firsttalentpppi     {
+    flex-basis: 25%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 25%;
+}
+
+
+
+
+}
+
+
+
 
 

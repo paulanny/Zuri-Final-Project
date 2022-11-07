@@ -1,218 +1,207 @@
-*   {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.programscope   {
-    margin: auto!important;
-    max-width: 1440px!important;
-    padding-top: 69px!important;
-    width: 90%!important;
+.programscope {
+  margin: auto !important;
+  max-width: 1440px !important;
+  padding-top: 69px !important;
+  width: 90% !important;
 }
 
-.scopetexts     {
-    display: block;
-    padding-top: 24px;
-    padding-left: 24px;
+.scopetexts {
+  display: block;
+  padding-top: 24px;
+  padding-left: 24px;
 }
 
-.redscope   {
-    color: #e7332b!important;
-    font-size: 24px!important;
-    font-weight: 400!important;
-    line-height: 130%!important;
-    
+.redscope {
+  color: #e7332b !important;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 130% !important;
 }
 
-.liststexts     {
-    color: #1b1a20!important;
-    font-size: 40px!important;
-    font-weight: 700!important;
-    line-height: 130%!important;
-    width: 60%;
-}
-
-.scopewire  {
-    display: flex;
-    justify-content: center;
-}
-
-.scopeimg   {
-    width: 15%;
-}
-
-.scopeboxes     {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: -24px;
-    width: calc(100% + 24px);
-    margin-left: -24px
-}
-
-.scopebox1      {
-    padding-left: 24px;
-    padding-top: 24px;
-    width: 32%;
-}
-
-.scopetxtndimg      {
-    background: #fff;
-    border-radius: 41px;
-    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
-    height: 320px!important;
-    padding: 40px!important;
-    /* width: 30%; */
-}
-
-.frontendbigtext    {
-    color: #1b1a20!important;
-    font-size: 20px!important;
-    font-weight: 700!important;
-    line-height: 130%!important;
-    padding-bottom: 20px!important;
-}
-
-.langlogos  {
-    display: flex;
-}
-
-.htmlimg        {
-    width: 35px;
-    padding-right: 14px;
-}
-
-.jsimg  {
-    width: 46px;
-    padding-right: 14px;
-}
-
-.phplogo    {
-    width: 62px;
-    padding-right: 14px;
-}
-
-.pythonimg      {
-    width: 50px;
-    padding-right: 14px;
-}
-
-.figmaimg       {
-        width: 97px;
-        padding-right: 7px;
-
-}
-
-.ubuntuimg      {
-    width: 100px;
-    padding-right: 14px;
-}
-
-.bashimg      {
-    width: 75px;
-    padding-right: 14px;
-}
-
-.awsimg      {
-    width: 60px;
-    padding-right: 14px;
-}
-
-.scopeboxsmalltxts      {
-    font-size: 14px!important;
-    font-weight: 400!important;
-    letter-spacing: .01em!important;
-    line-height: 140%!important;
-    padding-bottom: 30px!important;
-    padding-top: 40px!important;
-    color: #1b1a20!important;
-}
-
-.scopeenrol {
-    background: #e7332b!important;
-    border-radius: 71px!important;
-    box-shadow: none!important;
-    color: #fff!important;
-    padding: 10px 32px!important;
-    text-transform: none!important;
-    font-size: 18px;
-
-}
-
-.scopebtn   {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 85px;
-    margin-top: 70px;
-    cursor: pointer;
-    
-}
-
-@media  (max-width:1100px){
-    .liststexts {
-        color: #1b1a20!important;
-        font-size: 30px!important;
-        font-weight: 700!important;
-        line-height: 130%!important;
-        width: 100%;
-    }
-
-    .scopeimg {
-        width: 13%;
-    }
-
-    .scopebox1 {
-        padding-left: 24px;
-        padding-top: 24px;
-        width: 50%;
-    }
-}
-
-
-@media  (max-width:768px){
 .liststexts {
-    color: #1b1a20!important;
-    font-size: 23px!important;
-    font-weight: 700!important;
-    line-height: 130%!important;
-    width: 65%;
+  color: #1b1a20 !important;
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  line-height: 130% !important;
+  width: 60%;
+}
+
+.scopewire {
+  display: flex;
+  justify-content: center;
+}
+
+.scopeimg {
+  width: 15%;
+}
+
+.scopeboxes {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -24px;
+  width: calc(100% + 24px);
+  margin-left: -24px;
 }
 
 .scopebox1 {
+  padding-left: 24px;
+  padding-top: 24px;
+  width: 32%;
+}
+
+.scopetxtndimg {
+  background: #fff;
+  border-radius: 41px;
+  box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+  height: 320px !important;
+  padding: 40px !important;
+  /* width: 30%; */
+}
+
+.frontendbigtext {
+  color: #1b1a20 !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 130% !important;
+  padding-bottom: 20px !important;
+}
+
+.langlogos {
+  display: flex;
+}
+
+.htmlimg {
+  width: 35px;
+  padding-right: 14px;
+}
+
+.jsimg {
+  width: 46px;
+  padding-right: 14px;
+}
+
+.phplogo {
+  width: 62px;
+  padding-right: 14px;
+}
+
+.pythonimg {
+  width: 50px;
+  padding-right: 14px;
+}
+
+.figmaimg {
+  width: 97px;
+  padding-right: 7px;
+}
+
+.ubuntuimg {
+  width: 100px;
+  padding-right: 14px;
+}
+
+.bashimg {
+  width: 75px;
+  padding-right: 14px;
+}
+
+.awsimg {
+  width: 60px;
+  padding-right: 14px;
+}
+
+.scopeboxsmalltxts {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em !important;
+  line-height: 140% !important;
+  padding-bottom: 30px !important;
+  padding-top: 40px !important;
+  color: #1b1a20 !important;
+}
+
+.scopeenrol {
+  background: #e7332b !important;
+  border-radius: 71px !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  padding: 10px 32px !important;
+  text-transform: none !important;
+  font-size: 18px;
+}
+
+.scopebtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 85px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .liststexts {
+    color: #1b1a20 !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    line-height: 130% !important;
+    width: 100%;
+  }
+
+  .scopeimg {
+    width: 13%;
+  }
+
+  .scopebox1 {
+    padding-left: 24px;
+    padding-top: 24px;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .liststexts {
+    color: #1b1a20 !important;
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    line-height: 130% !important;
+    width: 65%;
+  }
+
+  .scopebox1 {
     padding-left: 24px;
     padding-top: 24px;
     width: 100%;
+  }
 }
 
-
+@media (max-width: 700px) {
+  .scopeimg {
+    width: 43%;
+    margin-top: -13px !important;
+  }
 }
 
+@media (max-width: 550px) {
+  .redscope {
+    color: #e7332b !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 130% !important;
+  }
 
-@media  (max-width:700px){
-
-    .scopeimg {
-        width: 43%;
-        margin-top: -13px!important;
-    }
-}
-
-
-@media  (max-width:550px){
-
-    .redscope {
-        color: #e7332b!important;
-        font-size: 18px!important;
-        font-weight: 400!important;
-        line-height: 130%!important;
-    }
-
-    .liststexts {
-        color: #1b1a20!important;
-        font-size: 20px!important;
-        font-weight: 700!important;
-        line-height: 130%!important;
-        width: 85%;
-    }
+  .liststexts {
+    color: #1b1a20 !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 130% !important;
+    width: 85%;
+  }
 }

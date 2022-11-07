@@ -1,18 +1,18 @@
-.page3head      {
-    background-color: white;
-    width: 100%;
-    min-height: 80px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    position: fixed;
-    /* padding: 10px; */
-    z-index: 1;
+.page3head {
+  background-color: white;
+  width: 100%;
+  min-height: 80px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: fixed;
+  /* padding: 10px; */
+  z-index: 1;
 }
 
-.thdnavlinks        {
-    display: flex;
-    /* gap: 15px; */
+.thdnavlinks {
+  display: flex;
+  /* gap: 15px; */
 }
 
 /* .clickables:current     {
@@ -26,80 +26,111 @@
     
 } */
 
- 
+.thdclickables {
+  cursor: pointer;
+  font-size: 16px;
+  color: #161617;
+  font-weight: 400;
+  margin-right: 3em;
+  padding: 10px 10px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  /* color: rgb(25, 118, 210); */
+}
 
-.thdclickables      {
-    cursor: pointer;
-    font-size: 16px;
-    color: #161617;
+.thdclickables:hover {
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+.thirdimglogo {
+  cursor: pointer;
+}
+
+.thdredbtn {
+  padding: 11px 35px;
+  background-color: #e7332b;
+  border-radius: 0 0 8px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-right: 15px !important;
+}
+
+.thditemsndbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdimgndnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .thdnavlinks {
+    display: none;
+  }
+
+  .thdredbtn {
+    padding: 11px 60px;
+    background-color: #e7332b;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    font-size: 19px;
     font-weight: 400;
-    margin-right: 3em;
-    padding: 10px 10px;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    /* color: rgb(25, 118, 210); */
+    line-height: 19px;
+    margin-right: 15px !important;
+  }
 }
 
-
-
-.thdclickables:hover    {
-    background-color: rgba(25, 118, 210, 0.04);
-}
-
-
-.thirdimglogo   {
-    cursor: pointer;
-}
-
-.thdredbtn      {
+@media (max-width: 500px) {
+  .thdredbtn {
     padding: 11px 35px;
     background-color: #e7332b;
     border-radius: 0 0 8px 0;
     color: #fff;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 19px;
-    margin-right: 15px!important;
-
+    margin-right: 15px !important;
+  }
 }
 
-.thditemsndbtn      {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (max-width: 370px) {
+  .thdredbtn {
+    padding: 11px 15px;
+    background-color: #e7332b;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-right: 15px !important;
+  }
 }
 
-.thirdimgndnav      {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 88%;
-    margin: auto;
-    padding-top: 20px;
+@media (max-width: 280px) {
+  .redsmalllog {
+    width: 113px;
+  }
 
+  .thdredbtn {
+    padding: 6px 10px;
+    background-color: #e7332b;
+    border-radius: 0 0 8px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-right: 15px !important;
+  }
 }
-
-
-@media   (max-width:768px)   {
-
-    .thdnavlinks    {
-        display: none;
-    }
-
-    .thdredbtn      {
-        padding: 11px 60px;
-        background-color: #e7332b;
-        border-radius: 0 0 8px 0;
-        color: #fff;
-        font-size: 19px;
-        font-weight: 400;
-        line-height: 19px;
-        margin-right: 15px!important;
-    
-    }
-
-}
-
-
-
-
