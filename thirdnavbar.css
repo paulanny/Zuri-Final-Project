@@ -107,7 +107,7 @@ nav .thdnavlinks ul li a:hover {
   padding-top: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .thdnavlinks {
     display: none;
   }
