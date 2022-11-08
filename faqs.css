@@ -10,56 +10,68 @@
   padding-top: 49px !important;
   width: 80% !important;
 }
-/*  */
 
-.accordli {
-  list-style: none;
+
+.accordionitems       {
+  
+width: 100%;
+background: #fff;
+padding: 10px;
+border: 1px solid rgba(71, 44, 111, 0.43);
+padding: 20px;
+border-collapse: collapse;
+}
+
+.accordion    {
+  /* width: 450px; */
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.accordionheader  {
+  padding: 0.75rem 1rem;
   width: 100%;
-  background: #fff;
-  padding: 10px;
-  border: 1px solid rgba(71, 44, 111, 0.43);
-  padding: 20px;
-  border-collapse: collapse;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  background-color: white;
 }
 
 .plusicon {
   width: 20px;
   height: 20px;
-  cursor: pointer;
-  transition: transform 0.1s ease-in;
+  transform: rotate(0deg);
+  transition: all 0.1s ease;
 }
 
-.accordlab {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 3em;
-  font-size: 18px;
-  font-weight: 600;
-  color: #333;
-  cursor: pointer;
-}
-
-.accordlab + input[type="radio"] {
-  display: none;
-}
-
-/* .content    {
-    display: none;
-  } */
-
-#accordion .content {
-  padding: 0 10px;
-  line-height: 26px;
+.accordioncontent {
+  padding: 0 1rem;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s ease;
+  transition: all 0.3s ease-in-out;
 }
 
-#accordion label + input[type="radio"]:checked + .content {
-  max-height: 400px;
+.accordioncontent.active  {
+  max-height: 10rem;
+  padding: 1rem;
 }
+
+.accordionheader.active   {
+  background-color: white;
+}
+
+.accordionheader.active .plusicon  {
+  transform: rotate(90deg);
+  transition: all 0.1s ease;
+}
+
 
 .gotque {
   text-align: center;
@@ -172,7 +184,7 @@
     font-weight: 400;
   }
 
-  .accordlab {
+  .accordionheader {
     padding: 10px;
     display: flex;
     align-items: center;
@@ -182,9 +194,10 @@
     font-weight: 600;
     color: #333;
     cursor: pointer;
+    text-align: left;
   }
 
-  .content {
+  .accordioncontent {
     font-size: 10px;
   }
 
@@ -210,6 +223,10 @@
     align-items: center;
     padding-bottom: 40px;
     padding-top: 70px;
+  }
+
+  .boxquest {
+    text-align: left;
   }
 
   .stillgotq {
@@ -241,7 +258,7 @@
     width: 92% !important;
   }
 
-  .accordlab {
+  .accordionheader {
     padding: 10px;
     display: flex;
     align-items: center;
@@ -255,6 +272,7 @@
 
   .boxquest {
     width: 80%;
+    text-align: left;
   }
 }
 
