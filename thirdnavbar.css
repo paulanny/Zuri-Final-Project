@@ -137,7 +137,7 @@ nav .thdnavlinks ul li a:hover {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 378px) {
   .thdredbtn {
     padding: 11px 15px;
     background-color: #e7332b;
